@@ -54,6 +54,13 @@ class Settings extends Abstract_Settings {
 			'default' => true,
 		];
 
+		$fields['excerpt-default'] = [
+			'type' => 'checkbox',
+			'label' => __( "Default excerpt", 'kntnt-lead' ),
+			'description' => __( 'Use lead as default for excerpts, and the first paragraph of the body text if the lead is empty.', 'kntnt-lead' ),
+			'default' => true,
+		];
+
 		$fields['submit'] = [
 			'type' => 'submit',
 		];

@@ -51,6 +51,8 @@ A lead should not be confused with an excerpt. [WordPress excerpts](https://word
 
 This plugin offers you to use the lead as default instead of the first 55 words. Just enable it on the setting page.
 
+If using this option, and the lead is empty, this plugin uses the first paragraph, regardless of its length, as the excerpts default value.    
+
 ## For developers
 
 This plugin provides a filter `kntnt-lead-HTML` that allows developers to change the HTML before outputting it above body text. This can be used, for example, if you wish to insert a byline between the lead and the body text.
