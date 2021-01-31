@@ -45,7 +45,7 @@ You can choose to enable or disable texturization on the lead field on the setti
 
 However, the shortcode can override this setting by adding the attribute `texturize`, which can take the values `on` and `off`. Thus, `[kntnt-lead texturize=off]` will always output the lead field's content "as is".
 
-### lead as default for excerpt
+### Lead as default for excerpt
 
 A lead should not be confused with an excerpt. [WordPress excerpts](https://wordpress.org/support/article/excerpt/) are used to summarize the content on archive pages and similar. If you don't provide a hand-crafted excerpt, the first 55 words of the post are used as a default.
 
