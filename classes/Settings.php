@@ -42,7 +42,7 @@ class Settings extends Abstract_Settings {
 			'description' => __( 'HTML with <code>%s</code> as placeholder for the plain lead text. It\'s used for leads inserted above body text, but not by <code>[kntnt-lead]</code>. ', 'kntnt-lead' ),
 			'rows' => 8,
 			'cols' => 80,
-			'default' => '<div class="lead">%s</div>',
+			'default' => '<p class="lead">%s</p>',
 		];
 
 		$fields['css'] = [
