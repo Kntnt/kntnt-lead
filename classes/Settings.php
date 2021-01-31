@@ -29,13 +29,6 @@ class Settings extends Abstract_Settings {
 			},
 		];
 
-		$fields['texturize'] = [
-			'type' => 'checkbox',
-			'label' => __( "Texturize", 'kntnt-lead' ),
-			'description' => __( "Transform quotes, apostrophes, dashes, ellipses and more to typography ditto.<br>It's used both when a lead is inserted with HTML and by the shortcode <code>[kntnt-lead]</code> without the attribute <code>texturize</code>, which can take the values <code>on</code> and <code>off</code>.", 'kntnt-lead' ),
-			'default' => true,
-		];
-
 		$fields['html'] = [
 			'type' => 'text area',
 			'label' => __( "Output HTML", 'kntnt-lead' ),
@@ -52,6 +45,13 @@ class Settings extends Abstract_Settings {
 			'rows' => 8,
 			'cols' => 80,
 			'default' => ".lead {\n\tfont-weight: bold;\n\tfont-style: italic;\n}\n",
+		];
+
+		$fields['texturize'] = [
+			'type' => 'checkbox',
+			'label' => __( "Texturize", 'kntnt-lead' ),
+			'description' => __( "Transform quotes, apostrophes, dashes, ellipses and more to typography ditto.<br>It's used both when a lead is inserted with HTML and by the shortcode <code>[kntnt-lead]</code> without the attribute <code>texturize</code>, which can take the values <code>on</code> and <code>off</code>.", 'kntnt-lead' ),
+			'default' => true,
 		];
 
 		$fields['submit'] = [
