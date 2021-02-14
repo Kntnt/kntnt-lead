@@ -55,7 +55,7 @@ If using this option, and the lead is empty, this plugin uses the first paragrap
 
 ## For developers
 
-This plugin provides a filter `kntnt-lead-HTML` that allows developers to change the HTML before outputting it above body text. This can be used, for example, if you wish to insert a byline between the lead and the body text.
+This plugin provides a filter `kntnt-lead-html` that allows developers to change the HTML before outputting it above body text. This can be used, for example, if you wish to insert a byline between the lead and the body text.
 
 ```PHP
 /**
@@ -86,7 +86,7 @@ You can also install it with [*GitHub Updater*](https://github.com/afragen/githu
 
 Look for `Kntnt Lead` in the Settings menu.
 
-### Why do I need Advanced Custom Fields (ACF)?
+### Why is Advanced Custom Fields (ACF) required?
 
 Advanced Custom Fields (ACF) provides a means to add custom fields to the WordPress user interface. This plugin uses it to add the lead field on selected posts types.
 
