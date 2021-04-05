@@ -7,7 +7,7 @@ namespace Kntnt\Lead;
 class Insert_HTML {
 
 	public function run() {
-		if ( is_singular( Plugin::option( 'output_post_types' ) ) ) {
+		if ( ( $output_post_types = Plugin::option( 'output_post_types' ) ) && is_singular( $output_post_types ) ) {
 			add_action( 'the_content', [ $this, 'insert_html' ] );
 		}
 	}
@@ -23,8 +23,8 @@ class Insert_HTML {
 			/**
 			 * Filters the HTML added at the beginning of the content.
 			 *
-			 * @param string $html     The HTML to be added to the content.
-			 * @param string $lead     The content of the lead field.
+			 * @param string $html The HTML to be added to the content.
+			 * @param string $lead The content of the lead field.
 			 * @param string $template The HTML-template from setting page.
 			 */
 			$html = apply_filters( 'kntnt-lead-html', sprintf( $template, $lead ), $lead, $template );

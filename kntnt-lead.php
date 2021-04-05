@@ -8,7 +8,7 @@
  * Plugin URI:        https://github.com/Kntnt/kntnt-lead
  * GitHub Plugin URI: https://github.com/Kntnt/kntnt-lead
  * Description:       Adds a lead paragraph to selected post types.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Thomas Barregren
  * Author URI:        https://www.kntnt.com/
  * License:           GPL-3.0+

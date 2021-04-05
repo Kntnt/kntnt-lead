@@ -8,15 +8,15 @@ class Load_ACF {
 
 	private static function fields() {
 		return [
-			'key' => 'group_59b2b0f8bb543',
-			'title' => 'Ingress',
+			'key' => 'group_606717c5dbc71',
+			'title' => 'Lead',
 			'fields' => [
 				[
-					'key' => 'field_595fa5d61b6f5',
-					'label' => __( 'Lead', 'kntnt-lead' ),
+					'key' => 'field_606717f9f48f3',
+					'label' => '',
 					'name' => 'lead',
 					'type' => 'textarea',
-					'instructions' => __( 'The lead appears before the body text. The lead is also used as an excerpt if the manual excerpt box is left blank.', 'kntnt-lead' ),
+					'instructions' => __( '<b>Lead:</b> Paragraph shown before the body. It typically summarizes the content and stimulate further reading. This text is also used as an excerpt if the manual excerpt box is left blank.', 'kntnt-lead' ),
 					'required' => 0,
 					'conditional_logic' => 0,
 					'wrapper' => [
@@ -25,18 +25,18 @@ class Load_ACF {
 						'id' => '',
 					],
 					'default_value' => '',
-					'placeholder' => '',
+					'placeholder' => 'Add lead paragraph',
 					'maxlength' => '',
 					'rows' => '',
 					'new_lines' => '',
 				],
 			],
 			'location' => self::locations(),
-			'menu_order' => 10,
+			'menu_order' => 50,
 			'position' => 'acf_after_title',
 			'style' => 'seamless',
 			'label_placement' => 'top',
-			'instruction_placement' => 'label',
+			'instruction_placement' => 'field',
 			'hide_on_screen' => '',
 			'active' => true,
 			'description' => '',
